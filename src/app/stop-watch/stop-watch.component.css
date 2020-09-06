@@ -1,0 +1,44 @@
+
+.container{
+    height:150px;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.display{
+    display: inline;
+    background-color: lightblue;
+    font-size: 80px;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid blue;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 2px;
+}
+
+.buttons{
+    text-align: center;
+    margin: 4%;
+    
+}
+
+button{
+    background-color: lightblue;
+    height: 50px;
+    width: 100px;
+    font-weight: 900; 
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 3px solid blue;
+    background-color: lightgrey;
+}
+
+button:active {
+    box-shadow: 0 3px #888;
+    transform: translateY(4px);
+  }
